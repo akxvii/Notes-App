@@ -8,9 +8,10 @@ const Header = ({ isOpen, setIsOpen }) => {
         style={{ backgroundColor: "#444746" }}
       >
         <button
-          className={`btn btn-dark me-3`}
+          className={`btn btn-dark me-3 bar`}
           onClick={() => setIsOpen(!isOpen)}
         >
+          <span className="hover-text">Hide Folders</span>
           <TbLayoutSidebarFilled size={24} />
         </button>
         <h4 className="m-0">Notes App</h4>

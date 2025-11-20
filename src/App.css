@@ -51,4 +51,18 @@
   background-color: #171717;
 }
 
+.bar {
+  position: relative;
+  padding: 10px 20px;
+  cursor: pointer;
+}
 
+.hover-text {
+  display: none;
+  margin-left: 10px;
+  color: red;
+}
+
+.bar:hover .hover-text {
+  display: inline;
+}
